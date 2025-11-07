@@ -76,6 +76,157 @@
         </div>
     </section>
 
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-intro">
+                <h2>Send Us a Message</h2>
+                <p>Fill out the form below and we'll get back to you as soon as possible</p>
+            </div>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required placeholder="John">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required placeholder="Doe">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(801) 555-1234">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Service Interested In</label>
+                    <select id="service" name="service">
+                        <option value="">Select a service...</option>
+                        <option value="haircut">Haircut</option>
+                        <option value="color">Color Services</option>
+                        <option value="styling">Styling</option>
+                        <option value="treatment">Hair Treatment</option>
+                        <option value="specialty">Specialty Services</option>
+                        <option value="waxing">Waxing</option>
+                        <option value="brows">Eyebrows</option>
+                        <option value="lashes">Lashes</option>
+                        <option value="studio-lease">Studio Lease Inquiry</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="preferredDate">Preferred Appointment Date</label>
+                    <input type="date" id="preferredDate" name="preferredDate">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Tell us about what you're looking for..."></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <span>I'd like to receive updates and special offers from Hair Lab SLC</span>
+                    </label>
+                </div>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+
+            <div class="form-success" id="formSuccess" style="display: none;">
+                <div class="success-icon">✓</div>
+                <h3>Thank You!</h3>
+                <p>Your message has been received. We'll get back to you within 24 hours.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <h2 class="section-title">Send Us a Message</h2>
+            <p class="form-intro">Have a question or ready to book? Fill out the form below and we'll get back to you as soon as possible.</p>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(801) 555-1234">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Service Interested In</label>
+                    <select id="service" name="service">
+                        <option value="">Select a service...</option>
+                        <option value="haircut">Haircut</option>
+                        <option value="color">Color Services</option>
+                        <option value="styling">Styling</option>
+                        <option value="treatments">Hair Treatments</option>
+                        <option value="specialty">Specialty Services</option>
+                        <option value="waxing">Waxing</option>
+                        <option value="brows">Eyebrows</option>
+                        <option value="lashes">Lashes</option>
+                        <option value="studio-lease">Studio Lease Inquiry</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="stylist">Preferred Stylist</label>
+                    <select id="stylist" name="stylist">
+                        <option value="">No preference</option>
+                        <option value="lien">Lien</option>
+                        <option value="twan">Twan</option>
+                        <option value="elena">Elena</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Tell us about what you're looking for, preferred dates/times, or any questions you have..."></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <span>I'd like to receive updates and special offers from Hair Lab SLC</span>
+                    </label>
+                </div>
+
+                <button type="submit" class="cta-button">Send Message</button>
+                
+                <p class="form-note">* Required fields. We typically respond within 24 hours during business days.</p>
+            </form>
+        </div>
+    </section>
+
     <!-- Map Section -->
     <section class="map-section">
         <div class="container-full">
