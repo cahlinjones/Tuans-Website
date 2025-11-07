@@ -986,6 +986,89 @@ section {
     line-height: 1.8;
 }
 
+/* Pricing Section */
+.pricing-section {
+    background: #f9f9f9;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pricing-category {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+.pricing-category h3 {
+    font-size: 1.8rem;
+    color: #8b7355;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #8b7355;
+    padding-bottom: 1rem;
+}
+
+.price-list {
+    margin-bottom: 1.5rem;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.price-item:last-child {
+    border-bottom: none;
+}
+
+.service-name {
+    color: #333;
+    font-size: 1rem;
+    flex: 1;
+}
+
+.service-price {
+    color: #8b7355;
+    font-weight: 600;
+    font-size: 1rem;
+    white-space: nowrap;
+    margin-left: 1rem;
+}
+
+.add-on-services {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #f0f0f0;
+}
+
+.add-on-services h4 {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.pricing-note {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    font-size: 0.95rem;
+    margin-top: 2rem;
+}
+
 /* CTA Section */
 .cta-section {
     background: linear-gradient(135deg, #8b7355 0%, #6d5a43 100%);
